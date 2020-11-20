@@ -25,7 +25,9 @@ android {
 }
 
 dependencies {
-    implementation("androidx.core:core:1.5.0-alpha05")
+    implementation("androidx.lifecycle:lifecycle-service:2.2.0")
+    implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.2.0")
+    implementation("androidx.core:core-ktx:1.5.0-alpha05")
     implementation("com.google.android.libraries.car:car-app:1.0.0-beta.1")
     implementation("org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version")
     implementation("androidx.constraintlayout:constraintlayout:2.0.4")

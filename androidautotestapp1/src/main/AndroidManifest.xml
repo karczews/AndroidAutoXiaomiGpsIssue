@@ -31,7 +31,12 @@
                 <category android:name="com.google.android.car.category.NAVIGATION" />
             </intent-filter>
         </service>
+
+        <service
+            android:name=".car.GpsService"
+            android:foregroundServiceType="location" />
     </application>
+
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
